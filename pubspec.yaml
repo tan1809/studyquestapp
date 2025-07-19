@@ -1,0 +1,38 @@
+name: studyquestapp
+description: "A gamified Pomodoro timer app with RPG elements like XP, coins, and avatars."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.2.2
+  audioplayers: ^5.2.1
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Uncomment and add assets as needed
+  # assets:
+  #   - assets/sounds/success.wav
+  #   - assets/sounds/fail.wav
+  #   - assets/images/avatar_1.png
+  #   - assets/images/monster_1.png
+
+  # Example for fonts (optional)
+  # fonts:
+  #   - family: GameFont
+  #     fonts:
+  #       - asset: assets/fonts/GameFont-Regular.ttf
